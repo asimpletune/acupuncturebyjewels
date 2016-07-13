@@ -1,12 +1,12 @@
 # Site settings
-title: Whatever makes Spence!
+title: Acupuncture by Jewels
 email: your-email@domain.com
-description: Spencer Scorcelletti's personal site.
+description: Jewels' personal acupuncture site
 author: Spencer Scorcelletti
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://asimpletune.github.io" # the base hostname & protocol for your site
-twitter_username: asimpletune
-github_username:  asimpletune
+url: "https://asimpletune.github.io/acupuncturebyjewels" # the base hostname & protocol for your site
+twitter_username: TBD
+github_username:  TBD
 defaults:
   - scope:
       path: ""      # currently, this appears to break unless you specify empty quotes...
@@ -21,7 +21,7 @@ defaults:
       - { src: /scripts/darkmode.js }
   - scope:
       path: ""
-      type: "pages" 
+      type: "pages"
     values:
       layout: "default"
       default-styles:
