@@ -73,4 +73,20 @@ So, coding the site for scratch is probably beyond the scope quid pro quo, but I
 
 In other words, the client will get a nice clean site that she can update on her own with a blog and all her info, but I won't code it for scratch or handle IE issues.
 
-No idea how long it'll take. Honestly, it could be done in a day, but I'll probably just take my time, there's no rush. 
+No idea how long it'll take. Honestly, it could be done in a day, but I'll probably just take my time, there's no rush.
+
+## Q/A
+
+What sections of your site do you think are most important?
+
+* First, I want them to book and appt. with me
+* Buy the yet to be released package
+* Image, and "About"
+* Info about what acupuncture actually is
+* What is different about Jewels' acupuncture
+  * Allergy elim
+  * NET (emotional)
+  * Acu + massage
+  * Detox cleans (retreats)
+  * etc...
+* Contact/hours
