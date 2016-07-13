@@ -1,0 +1,27 @@
+---
+styles:
+- { src: /css/home.css }
+permalink: /
+---
+
+<section id="landing">
+  <div class="flex-container">
+    <div class="title-wrapper flex-container">
+      <img class="img-circle logo" src="images/logo.svg" alt="Spencer's logo" />
+      <h1 class="title">{{ site.author }}</h1>
+      <h3 class="subtitle">
+        <span class="career">software developer<span>
+        <span class="occupation">artist</span>
+        <span class="adjective">generally curious</span>
+      </h3>
+    </div>
+    <div class="next-section-preview flex-container">
+      <h6>
+        <small>A little about me.</small>
+      </h6>
+    </div>
+  </div>
+</section>
+<section id="about-me">
+  {% include home/about.html %}
+</section>

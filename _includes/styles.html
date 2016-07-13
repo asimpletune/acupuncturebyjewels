@@ -1,0 +1,27 @@
+<!-- default styles -->
+{% for style in page.default-styles %}
+  <link
+    rel="stylesheet"
+    href="{{ style.src | prepend: site.baseurl }}"
+    {% if style.media %}
+      media="{{ style.media }}"
+    {% endif %}
+    {% if style.title %}
+      title="{{ style.title }}"
+    {% endif %}
+  >
+{% endfor %}
+
+<!-- extra styles -->
+{% for style in page.styles %}
+  <link
+    rel="stylesheet"
+    href="{{ style.src | prepend: site.baseurl }}"
+    {% if style.media %}
+      media="{{ style.media }}"
+    {% endif %}
+    {% if style.title %}
+      title="{{ style.title }}"
+    {% endif %}
+  >
+{% endfor %}

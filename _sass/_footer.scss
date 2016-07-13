@@ -1,0 +1,62 @@
+@import "theme";
+footer {
+  #contact-info-overlay {
+    display: none;
+  }
+  #contact-info-overlay:hover {
+    cursor: pointer;
+  }
+  width: 100%;
+  border-top: 1px solid $bright-mint;
+  background-color: $outer-space;
+  color: white;
+  padding: 1em;
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    .flex-item {
+      min-width: 25%;
+      text-align: center;
+      margin: 0.5em 0;
+      .item {
+        margin: 0.5em;
+      }
+      i {
+        color: white;
+      }
+      i:hover {
+        color: inherit;
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  .social-media {
+    i {
+      font-size: 6rem;
+    }
+  }
+  .logo {
+    width: 3em;
+  }
+  .contact .glyphicon {
+    font-size: 4.5rem;
+  }
+}
+.darkmode {
+  footer {
+    color: $silver-chalice;
+    .flex-container .flex-item {
+      i {
+      color: $silver-chalice;
+      }
+      i:hover {
+        color: inherit;
+      }
+    }
+  }
+}

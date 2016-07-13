@@ -1,0 +1,26 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    {% include meta.html %}
+    {% include styles.html %}
+  </head>
+  <body>    
+
+    <div class="page-content">
+      <div class="layout-wrapper">
+        <div class="page-wrapper">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include  footer.html %}
+    <script charset="utf-8" type="text/javascript" src="/scripts/jquery.min.js"></script>
+    <script charset="utf-8" type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+    <script charset="utf-8" type="text/javascript" src="/scripts/footer.js"></script>
+    {% include  scripts.html %}
+  </body>
+
+</html>

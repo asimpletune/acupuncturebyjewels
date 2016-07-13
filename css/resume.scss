@@ -1,0 +1,35 @@
+---
+---
+@import
+  "style";
+
+section#resume.container {
+  margin-bottom: 5em;
+  .actions {
+    float: right;
+  }
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 568px)
+  and (orientation : portrait) {
+    .btn-primary {
+      font-size: 1em;
+    }
+  }
+}
+
+@media print {
+  header, footer {
+    display: none !important;
+  }
+  section#resume {
+    .actions {
+      display: none;
+    }
+    blockquote {
+      border-top: none;
+      border-right: none;
+      border-bottom: none;
+    }
+  }
+}

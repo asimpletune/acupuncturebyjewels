@@ -1,0 +1,5 @@
+@mixin columns($max-columns, $min-width) {
+  columns: $max-columns $min-width;
+  -webkit-columns: $max-columns $min-width;
+  -moz-columns: $max-columns $min-width;
+}

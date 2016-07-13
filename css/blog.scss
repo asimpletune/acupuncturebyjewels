@@ -1,0 +1,23 @@
+---
+---
+#posts {
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+}
+.darkmode {
+  ul {
+    a, a:hover {
+      color: white;
+    }
+  }
+}
+@import
+  "style",
+  "home/landing",
+  "home/about",
+  "home/projects",
+  "home/blog";

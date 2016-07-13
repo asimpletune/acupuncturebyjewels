@@ -1,0 +1,701 @@
+<div id="table-of-contents" class="lead">
+  <ul class="h2">
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">
+        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="title">{{ post.title }}</span>
+      </a>
+    </li>
+    {% endfor %}
+    <!-- Just for looks so I can prototype -->
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title">Lorem ipsum dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> sit amet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> consectetur adipiscing elit.</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> Aenean scelerisque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> magna quis imperdiet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> tincidunt</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> orci arcu sodales massa</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> mollis dignissim velit risus tempor dolor. Curabitur ultricies libero id erat dignissim</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec eleifend tellus accumsan. Integer nulla dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> vehicula vitae mauris quis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> porttitor auctor orci. Nam efficitur ex lectus</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec aliquet mi accumsan quis. Sed id metus vitae felis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> scelerisque ultrices. Donec nec blandit neque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> a ornare metus. Suspendisse in facilisis tortor. Cras lobortis sollicitudin neque at dignissim.Lorem ipsum dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> sit amet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> consectetur adipiscing elit.</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> Aenean scelerisque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> magna quis imperdiet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> tincidunt</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> orci arcu sodales massa</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> mollis dignissim velit risus tempor dolor. Curabitur ultricies libero id erat dignissim</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec eleifend tellus accumsan. Integer nulla dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> vehicula vitae mauris quis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> porttitor auctor orci. Nam efficitur ex lectus</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec aliquet mi accumsan quis. Sed id metus vitae felis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> scelerisque ultrices. Donec nec blandit neque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> a ornare metus. Suspendisse in facilisis tortor. Cras lobortis sollicitudin neque at dignissim.Lorem elit.</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> Aenean scelerisque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> magna quis imperdiet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> tincidunt</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> orci arcu sodales massa</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> mollis dignissim velit risus tempor dolor. Curabitur ultricies libero id erat dignissim</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec eleifend tellus accumsan. Integer nulla dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> vehicula vitae mauris quis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> porttitor auctor orci. Nam efficitur ex lectus</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec aliquet mi accumsan quis. Sed id metus vitae felis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> scelerisque ultrices. Donec nec blandit neque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> a ornare metus. Suspendisse in facilisis tortor. Cras lobortis sollicitudin neque at dignissim.Lorem</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title">Lorem ipsum dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> sit amet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> consectetur adipiscing elit.</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> Aenean scelerisque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> magna quis imperdiet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> tincidunt</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> orci arcu sodales massa</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> mollis dignissim velit risus tempor dolor. Curabitur ultricies libero id erat dignissim</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec eleifend tellus accumsan. Integer nulla dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> vehicula vitae mauris quis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> porttitor auctor orci. Nam efficitur ex lectus</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec aliquet mi accumsan quis. Sed id metus vitae felis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> scelerisque ultrices. Donec nec blandit neque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> a ornare metus. Suspendisse in facilisis tortor. Cras lobortis sollicitudin neque at dignissim.Lorem ipsum dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> sit amet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> consectetur adipiscing elit.</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> Aenean scelerisque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> magna quis imperdiet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> tincidunt</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> orci arcu sodales massa</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> mollis dignissim velit risus tempor dolor. Curabitur ultricies libero id erat dignissim</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec eleifend tellus accumsan. Integer nulla dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> vehicula vitae mauris quis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> porttitor auctor orci. Nam efficitur ex lectus</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec aliquet mi accumsan quis. Sed id metus vitae felis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> scelerisque ultrices. Donec nec blandit neque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> a ornare metus. Suspendisse in facilisis tortor. Cras lobortis sollicitudin neque at dignissim.Lorem elit.</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> Aenean scelerisque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> magna quis imperdiet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> tincidunt</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> orci arcu sodales massa</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> mollis dignissim velit risus tempor dolor. Curabitur ultricies libero id erat dignissim</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec eleifend tellus accumsan. Integer nulla dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> vehicula vitae mauris quis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> porttitor auctor orci. Nam efficitur ex lectus</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec aliquet mi accumsan quis. Sed id metus vitae felis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> scelerisque ultrices. Donec nec blandit neque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> a ornare metus. Suspendisse in facilisis tortor. Cras lobortis sollicitudin neque at dignissim.Lorem</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title">Lorem ipsum dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> sit amet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> consectetur adipiscing elit.</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> Aenean scelerisque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> magna quis imperdiet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> tincidunt</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> orci arcu sodales massa</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> mollis dignissim velit risus tempor dolor. Curabitur ultricies libero id erat dignissim</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec eleifend tellus accumsan. Integer nulla dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> vehicula vitae mauris quis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> porttitor auctor orci. Nam efficitur ex lectus</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec aliquet mi accumsan quis. Sed id metus vitae felis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> scelerisque ultrices. Donec nec blandit neque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> a ornare metus. Suspendisse in facilisis tortor. Cras lobortis sollicitudin neque at dignissim.Lorem ipsum dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> sit amet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> consectetur adipiscing elit.</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> Aenean scelerisque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> magna quis imperdiet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> tincidunt</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> orci arcu sodales massa</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> mollis dignissim velit risus tempor dolor. Curabitur ultricies libero id erat dignissim</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec eleifend tellus accumsan. Integer nulla dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> vehicula vitae mauris quis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> porttitor auctor orci. Nam efficitur ex lectus</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec aliquet mi accumsan quis. Sed id metus vitae felis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> scelerisque ultrices. Donec nec blandit neque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> a ornare metus. Suspendisse in facilisis tortor. Cras lobortis sollicitudin neque at dignissim.Lorem elit.</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> Aenean scelerisque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> magna quis imperdiet</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> tincidunt</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> orci arcu sodales massa</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> mollis dignissim velit risus tempor dolor. Curabitur ultricies libero id erat dignissim</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec eleifend tellus accumsan. Integer nulla dolor</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> vehicula vitae mauris quis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> porttitor auctor orci. Nam efficitur ex lectus</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> nec aliquet mi accumsan quis. Sed id metus vitae felis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> scelerisque ultrices. Donec nec blandit neque</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="date">Dec 1, 2013:</span>
+        <span class="title"> a ornare metus. Suspendisse in facilisis tortor. Cras lobortis sollicitudin neque at dignissim.Lorem</span>
+      </a>
+    </li>
+
+  </ul>
+  <div class="see-more">
+    <a href="/blog" type="button" class="btn btn-primary btn-lg">See more blog</a>
+  </div>
+</div>

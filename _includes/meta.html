@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="shortcut icon" href="/images/favicon.ico">
+<link rel="/images/apple-touch-icon" href="/images/apple-touch-icon.png">
+
+<title>
+  {% if page.title %}
+    {{ page.title }}
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+</title>
+
+<meta name="author" content="{{ site.author }}">
+<meta name="description" content="{{ site.description }}">
+<meta name="keywords" content="Spencer,Scorcelletti,programming,technology,making,blog,projects,git,github,docker,graphql,presidio,cool,dude">
+
+<link rel="copyright" href="copyright.html" title="Copyright Notice">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

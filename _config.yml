@@ -1,0 +1,40 @@
+# Site settings
+title: Whatever makes Spence!
+email: your-email@domain.com
+description: Spencer Scorcelletti's personal site.
+author: Spencer Scorcelletti
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://asimpletune.github.io" # the base hostname & protocol for your site
+twitter_username: asimpletune
+github_username:  asimpletune
+defaults:
+  - scope:
+      path: ""      # currently, this appears to break unless you specify empty quotes...
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      default-styles:
+      - { src: /css/vendor.css }
+      - { src: /css/post.css }
+      default-scripts:
+      - { src: /scripts/jquery.min.js }
+      - { src: /scripts/darkmode.js }
+  - scope:
+      path: ""
+      type: "pages" 
+    values:
+      layout: "default"
+      default-styles:
+      - { src: /css/vendor.css }
+      scripts:
+      - { src: /scripts/jquery.min.js }
+      - { src: /scripts/darkmode.js }
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+collections:
+  - content

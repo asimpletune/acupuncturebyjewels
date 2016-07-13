@@ -1,0 +1,69 @@
+section#blog {
+  // margin-top: 2em; waiting for projects section to be finished
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  div#table-of-contents {
+    position: relative;
+    max-height: 30em;
+    background-color: rgb(170,13,255);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: justify;
+    h1 {
+     font-weight: 600;
+    }
+    h1, h2 {
+     text-align: center;
+    }
+    li {
+      display: inline;
+      word-break: break-all;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      a {
+        color: rgb(51, 51, 51);
+        font-weight: 500;
+        .date {
+          font-weight: 100;
+        }
+        .title {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  div.see-more {
+    position: absolute;
+    height: 0;
+    width: 100%;
+    bottom: 12.5rem;
+    z-index: 4;
+    text-align: center;
+    a {
+      margin: 0;
+    }
+  }
+  .btn.btn-primary {
+    padding: 0.778em 1.667em;
+    background-color: transparent;
+    border: solid rgb(95, 255, 168) 1px;
+    color: rgb(95, 255, 168);
+  }
+  .btn.btn-primary:hover,
+  .btn.btn-primary:active,
+  .btn.btn-primary:focus {
+    border-color: rgb(76, 204, 134);
+    color: rgb(76, 204, 134);
+    background-color: transparent;
+  }
+}
+.darkmode {
+  section#blog {
+    color: rgb(41, 47, 51);
+  }
+}

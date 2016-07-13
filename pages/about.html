@@ -1,0 +1,14 @@
+---
+styles:
+- { src: /css/about.css }
+permalink: /about/
+---
+<section id="intro" class="container">
+  <img class="profile" src="/assets/profile.jpg"/>
+  <div class="intro-content lead">
+    {{ site.content | where:"id", "/content/about/intro" }}
+  </div>
+</section>
+<section id="professional" class="container">
+  {{ site.content | where:"id", "/content/about/professional"}}
+</section>

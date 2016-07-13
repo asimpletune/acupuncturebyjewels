@@ -1,0 +1,41 @@
+section#projects {
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  .title {
+    font-weight: 500;
+    color: $outer-space;
+    margin: 2em;
+  }
+  .col-md-4 > h1 {
+    margin: 1em 0 1.5em 0;
+    font-weight: 500;
+    a {
+      color: inherit;
+    }
+  }
+  h3 {
+    padding-bottom: 2.5em;
+  }
+  h2, h3 {
+    margin: 0;
+    text-align: center;
+  }
+}
+.persian-pink {
+  color: rgb(253,126,213);
+}
+.wild-watermelon {
+  color: rgb(252,94,109);
+}
+.salmon {
+  color: rgb(253,134,108);
+}
+
+.darkmode {
+  section#projects {
+    .title {
+      color: $silver-chalice;
+    }
+  }
+}
