@@ -15,6 +15,7 @@ defaults:
       layout: "post"
       default-styles:
       - { src: /css/vendor.css }
+      - { src: /css/agency.css }
       - { src: /css/post.css }
       default-scripts:
       - { src: /scripts/jquery.min.js }
@@ -26,6 +27,7 @@ defaults:
       layout: "default"
       default-styles:
       - { src: /css/vendor.css }
+      - { src: /css/agency.css }
       scripts:
       - { src: /scripts/jquery.min.js }
       - { src: /scripts/darkmode.js }
