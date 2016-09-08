@@ -51,12 +51,20 @@ permalink: /index
 <!-- My Practice Section -->
 <section id="portfolio" class="bg-light-gray">
     <div class="container editable">
-        <div class="row">
+        <div class="row heading">
             <div class="col-lg-12 text-center">
                 {{ site.content | where:"id", "/content/my-practice/heading" }}
             </div>
         </div>
-        <div class="row">
+        <div class="row process">
+            <div class="col-lg-6 text-left">
+                {{ site.content | where:"id", "/content/my-practice/initial-consultation" }}
+            </div>
+            <div class="col-lg-6 text-left">
+                {{ site.content | where:"id", "/content/my-practice/follow-up" }}
+            </div>
+        </div>
+        <div class="row gallery">
             <div class="col-md-4 col-sm-6 portfolio-item">
                 <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
