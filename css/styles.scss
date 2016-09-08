@@ -33,3 +33,9 @@
     margin: 50px;
   }
 }
+
+#about {
+  .timeline > li::after, .timeline > li::before {
+    content: unset;
+  }
+}

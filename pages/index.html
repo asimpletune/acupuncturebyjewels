@@ -168,8 +168,7 @@ permalink: /index
     <div class="container editable">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">About Jewels</h2>
-                <h3 class="section-subheading text-muted">I have been studying/practicing acupuncture for 16 years, massage for 30 years, and nutrition for 28 years.</h3>
+                {{ site.content | where:"id", "/content/about/heading" }}
             </div>
         </div>
         <div class="row">
@@ -177,67 +176,35 @@ permalink: /index
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="{{ site.github.url }}/images/about/1.jpg" alt="">
+                            <img class="img-circle img-responsive" src="{{ site.github.url }}/images/about/jewels1.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
+                          {{ site.content | where:"id", "/content/about/bubble1" }}
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="{{ site.github.url }}/images/about/2.jpg" alt="">
+                            <img class="img-circle img-responsive" src="{{ site.github.url }}/images/about/food2.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
+                            {{ site.content | where:"id", "/content/about/bubble2" }}
                         </div>
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="{{ site.github.url }}/images/about/3.jpg" alt="">
+                            <img class="img-circle img-responsive" src="{{ site.github.url }}/images/about/jewels2.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2012</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
+                            {{ site.content | where:"id", "/content/about/bubble3" }}
                         </div>
                     </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="{{ site.github.url }}/images/about/4.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2014</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
+                    <!-- <li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>Be Part
                                 <br>Of Our
                                 <br>Story!</h4>
                         </div>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -500,7 +467,7 @@ permalink: /index
 </div>
 
 <!-- Portfolio Modal 6 -->
-<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
