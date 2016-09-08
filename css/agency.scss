@@ -1,5 +1,7 @@
 ---
 ---
+$primary-color: #BF3C7C;
+$primary-color-shade: #8D0B4B;
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -8,7 +10,7 @@ body {
     color: #777;
 }
 .text-primary {
-    color: #fed136;
+    color: $primary-color;
 }
 p {
     font-size: 14px;
@@ -25,13 +27,13 @@ a:hover {
     outline: 0;
 }
 a {
-    color: #fed136;
+    color: $primary-color;
 }
 a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #fec503;
+    color: $primary-color-shade;
 }
 h1,
 h2,
@@ -54,8 +56,8 @@ h6 {
 }
 .btn-primary {
     color: #fff;
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: $primary-color;
+    border-color: $primary-color;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -66,7 +68,7 @@ h6 {
 .btn-primary:hover,
 .open .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #fec503;
+    background-color: $primary-color-shade;
     border-color: #f6bf01;
 }
 .btn-primary.active,
@@ -89,17 +91,17 @@ fieldset[disabled] .btn-primary.active,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: $primary-color;
+    border-color: $primary-color;
 }
 .btn-primary .badge {
-    color: #fed136;
+    color: $primary-color;
     background-color: #fff;
 }
 .btn-xl {
     color: #fff;
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: $primary-color;
+    border-color: $primary-color;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -113,7 +115,7 @@ fieldset[disabled] .btn-primary:hover {
 .btn-xl:hover,
 .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
+    background-color: $primary-color-shade;
     border-color: #f6bf01;
 }
 .btn-xl.active,
@@ -136,11 +138,11 @@ fieldset[disabled] .btn-xl.active,
 fieldset[disabled] .btn-xl:active,
 fieldset[disabled] .btn-xl:focus,
 fieldset[disabled] .btn-xl:hover {
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: $primary-color;
+    border-color: $primary-color;
 }
 .btn-xl .badge {
-    color: #fed136;
+    color: $primary-color;
     background-color: #fff;
 }
 .navbar-default {
@@ -148,28 +150,28 @@ fieldset[disabled] .btn-xl:hover {
     border-color: transparent;
 }
 .navbar-default .navbar-brand {
-    color: #fed136;
+    color: $primary-color;
     font-family: "Josefin Sans","Helvetica Neue",Helvetica,Arial,cursive;
 }
 .navbar-default .navbar-brand.active,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
-    color: #fec503;
+    color: $primary-color-shade;
 }
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
 }
 .navbar-default .navbar-toggle {
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: $primary-color;
+    border-color: $primary-color;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background-color: #fed136;
+    background-color: $primary-color;
 }
 .navbar-default .nav li a {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -180,18 +182,18 @@ fieldset[disabled] .btn-xl:hover {
 }
 .navbar-default .nav li a:focus,
 .navbar-default .nav li a:hover {
-    color: #fed136;
+    color: $primary-color;
     outline: 0;
 }
 .navbar-default .navbar-nav > .active > a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: $primary-color;
 }
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
-    background-color: #fec503;
+    background-color: $primary-color-shade;
 }
 @media (min-width:768px) {
     .navbar-default {
@@ -307,7 +309,7 @@ section h3.section-subheading {
     margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    background: rgba(254,209,54,.9);
+    background: rgba(#E79649, .6);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -415,7 +417,7 @@ section h3.section-subheading {
     height: 80px;
     position: absolute;
     z-index: 100;
-    background-color: #fed136;
+    background-color: $primary-color;
     color: #fff;
     border-radius: 100%;
     border: 7px solid #f1f1f1;
@@ -549,9 +551,9 @@ aside.clients img {
 }
 section#contact {
     background-color: #222;
-    background-image: url("../images/map-image.png");
+    background-image: url("../images/flower-of-life.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    // background-repeat: no-repeat;
 }
 section#contact .section-heading {
     color: #fff;
@@ -570,7 +572,7 @@ section#contact .form-group textarea.form-control {
     height: 236px;
 }
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: $primary-color;
     box-shadow: none;
 }
 section#contact::-webkit-input-placeholder {
@@ -637,7 +639,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: #fed136;
+    background-color: $primary-color;
 }
 .btn.active,
 .btn:active,
@@ -712,11 +714,11 @@ ul.social-buttons li a:hover {
 }
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #E79649;
 }
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #E79649;
 }
 img::selection {
     background: 0 0;
@@ -725,5 +727,5 @@ img::-moz-selection {
     background: 0 0;
 }
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #E79649;
 }
