@@ -7,7 +7,7 @@ permalink: /index
 
 <!-- Header -->
 <header>
-    <div class="container editable">
+    <div class="container">
         <div class="intro-text">
             <div class="intro-lead-in">Acupuncture:</div>
             <div class="intro-heading">Therapy that targets</div>
@@ -18,7 +18,7 @@ permalink: /index
 
 <!-- Services Section -->
 <section id="services">
-    <div class="container editable">
+    <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 {{ site.content | where:"id", "/content/services/heading" }}
@@ -45,19 +45,22 @@ permalink: /index
 
 <!-- My Practice Section -->
 <section id="portfolio" class="bg-light-gray">
-    <div class="container editable">
+    <div class="container">
         <div class="row heading">
             <div class="col-lg-12 text-center">
                 {{ site.content | where:"id", "/content/my-practice/heading" }}
             </div>
         </div>
         <div class="row process">
-            <div class="col-lg-6 text-left">
-                {{ site.content | where:"id", "/content/my-practice/initial-consultation" }}
-            </div>
-            <div class="col-lg-6 text-left">
-                {{ site.content | where:"id", "/content/my-practice/follow-up" }}
-            </div>
+          <div class="col-lg-6 text-left">
+              {{ site.content | where:"id", "/content/my-practice/initial-consultation" }}
+          </div>
+          <div class="col-lg-6 text-left">
+              {{ site.content | where:"id", "/content/my-practice/follow-up" }}
+          </div>
+          <div class="col-lg-12 text-right">
+            {{ site.content | where:"id", "/content/my-practice/forms" }}
+          </div>
         </div>
         <div class="row lao-tzu">
             <div class="col-lg-12">
@@ -65,94 +68,21 @@ permalink: /index
             </div>
         </div>
         <div class="row gallery">
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{ site.github.url }}/images/studio/Acu_Man.jpg" class="img-responsive" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Caption 1</h4>
-                    <p class="text-muted">Subheading one...</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="col-md-12 col-sm-12 portfolio-item">
                 <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
+                    <div class="portfolio">
                     </div>
                     <img src="{{ site.github.url }}/images/studio/2_tables.jpg" class="img-responsive" alt="">
                 </a>
                 <div class="portfolio-caption">
-                    <h4>Caption 2</h4>
-                    <p class="text-muted">Subheading two...</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{ site.github.url }}/images/studio/Budha_and_chart.jpg" class="img-responsive" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Caption 3</h4>
-                    <p class="text-muted">Subheading three...</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{ site.github.url }}/images/studio/fireplace.jpg" class="img-responsive" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Caption 4</h4>
-                    <p class="text-muted">Subheading four...</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{ site.github.url }}/images/studio/flowers.jpg" class="img-responsive" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Caption 5</h4>
-                    <p class="text-muted">Subheading five...</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{ site.github.url }}/images/studio/reflection.jpg" class="img-responsive" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Caption 6</h4>
-                    <p class="text-muted">Subheading six...</p>
+                    <h4>My Studio</h4>
+                    <p class="text-muted">For a calm and relaxing environment</p>
                 </div>
             </div>
         </div>
         <div class="row footing">
             <div class="col-lg-12 text-center">
-                {{ site.content | where:"id", "/content/my-practice/footing" }}
+              {{ site.content | where:"id", "/content/my-practice/footing" }}
             </div>
         </div>
     </div>
@@ -160,7 +90,7 @@ permalink: /index
 
 <!-- About Section -->
 <section id="about">
-    <div class="container editable">
+    <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 {{ site.content | where:"id", "/content/about/heading" }}
@@ -201,7 +131,7 @@ permalink: /index
 
 <!-- Pricing Section -->
 <section id="pricing" class="bg-light-gray">
-    <div class="container editable">
+    <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 {{ site.content | where:"id", "/content/pricing/heading" }}
@@ -215,7 +145,7 @@ permalink: /index
 
 <!-- Contact Section -->
 <section id="contact">
-    <div class="container editable">
+    <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 {{ site.content | where:"id", "/content/contact/heading" }}
@@ -261,144 +191,3 @@ permalink: /index
         </div>
     </div>
 </section>
-
-<!-- Portfolio Modals -->
-<!-- Use the modals below to showcase details about your portfolio projects! -->
-
-<!-- Portfolio Modal 1 -->
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container editable">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <!-- Project Details Go Here -->
-                        {{ site.content | where:"id", "/content/my-practice/image1" }}
-                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Portfolio Modal 2 -->
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container editable">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                      <!-- Project Details Go Here -->
-                      {{ site.content | where:"id", "/content/my-practice/image2" }}
-                      <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Portfolio Modal 3 -->
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container editable">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                      <!-- Project Details Go Here -->
-                      {{ site.content | where:"id", "/content/my-practice/image3" }}
-                      <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Portfolio Modal 4 -->
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container editable">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                      <!-- Project Details Go Here -->
-                      {{ site.content | where:"id", "/content/my-practice/image4" }}
-                      <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Portfolio Modal 5 -->
-<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container editable">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                      <!-- Project Details Go Here -->
-                      {{ site.content | where:"id", "/content/my-practice/image5" }}
-                      <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Portfolio Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container editable">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                      <!-- Project Details Go Here -->
-                      {{ site.content | where:"id", "/content/my-practice/image6" }}
-                      <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
