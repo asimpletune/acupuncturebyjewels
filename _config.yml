@@ -4,7 +4,7 @@ email: your-email@domain.com
 description: Jewels' personal acupuncture site
 author: Spencer Scorcelletti
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://asimpletune.github.io/acupuncturebyjewels" # the base hostname & protocol for your site
+url: "http://acupuncturebyjewels.com" # the base hostname & protocol for your site
 twitter_username: TBD
 github_username:  TBD
 defaults:
