@@ -151,7 +151,24 @@ permalink: /index
             </div>
         </div>
         <div class="prices">
-              {{ site.content | where:"id", "/content/pricing/pricing" }}
+          <div>
+            {{ site.content | where:"id", "/content/pricing/acupuncture-and-massage" }}
+          </div>
+        </div>
+        <div class="prices">
+          <div id="name">
+            {{ site.content | where:"id", "/content/pricing/fat-and-cellulite" }}
+          </div>
+        </div>
+        <div class="prices">
+          <div id="name">
+            {{ site.content | where:"id", "/content/pricing/package-discount" }}
+          </div>
+        </div>
+        <div class="prices">
+          <div id="name">
+            {{ site.content | where:"id", "/content/pricing/notes" }}
+          </div>
         </div>
     </div>
 </section>
