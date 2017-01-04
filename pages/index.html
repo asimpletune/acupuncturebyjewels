@@ -37,6 +37,19 @@ permalink: /index
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
+                {{ site.content | where:"id", "/content/services/new-services-added" }}
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-5 col-md-offset-1">
+                {{ site.content | where:"id", "/content/services/fat-melting" }}
+            </div>
+            <div class="col-md-5">
+                {{ site.content | where:"id", "/content/services/cellulite" }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
                 {{ site.content | where:"id", "/content/services/footing" }}
             </div>
         </div>
