@@ -37,6 +37,11 @@ permalink: /index
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
+                {{ site.content | where:"id", "/content/services/footing" }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
                 {{ site.content | where:"id", "/content/services/new-services-added" }}
             </div>
         </div>
@@ -50,7 +55,7 @@ permalink: /index
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
-                {{ site.content | where:"id", "/content/services/footing" }}
+                {{ site.content | where:"id", "/content/services/new-services-added-footing" }}
             </div>
         </div>
     </div>
