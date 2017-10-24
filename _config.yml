@@ -1,6 +1,6 @@
 # Site settings
 title: Acupuncture by Jewels
-email: your-email@domain.com
+email: jewels@kirasretreats.com
 description: Jewels' personal acupuncture site
 author: Spencer Scorcelletti
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -19,7 +19,6 @@ defaults:
       - { src: /css/post.css }
       default-scripts:
       - { src: /scripts/jquery.min.js }
-      - { src: /scripts/darkmode.js }
   - scope:
       path: ""
       type: "pages"
@@ -28,9 +27,13 @@ defaults:
       default-styles:
       - { src: /css/vendor.css }
       - { src: /css/agency.css }
-      scripts:
+      default-scripts:
       - { src: /scripts/jquery.min.js }
-      - { src: /scripts/darkmode.js }
+      - { src: /scripts/bootstrap.min.js }
+      - { src: /scripts/jquery.easing.min.js }
+      - { src: /scripts/classie.js }
+      - { src: /scripts/cbpAnimatedHeader.js }
+      - { src: /scripts/agency.js }
 
 # Build settings
 markdown: kramdown

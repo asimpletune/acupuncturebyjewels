@@ -1,7 +1,7 @@
 ---
 ---
 {:.text-muted}
-### Initial Consultation
+### Initial Consultation & Treatment
 
 Your initial treatment is a Private Consultation for 1.5 hours. You will complete your intake form and we will discuss your complaint. I will come up with a treatment plan. We will set up a realistic appointment and pay schedule. Then you will receive a lovely hour long treatment.
 

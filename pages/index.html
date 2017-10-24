@@ -2,6 +2,9 @@
 layout: default
 styles:
 - { src: /css/styles.css }
+scripts:
+- { src: /scripts/jqBootstrapValidation.js }
+- { src: /scripts/contact_me.js }
 permalink: /index
 ---
 
@@ -71,7 +74,7 @@ permalink: /index
         </div>
         <div class="row process">
           <div class="col-lg-6 text-left">
-              {{ site.content | where:"id", "/content/my-practice/initial-consultation" }}
+              {{ site.content | where:"id", "/content/my-practice/initial-consultation-and-treatment" }}
           </div>
           <div class="col-lg-6 text-left">
               {{ site.content | where:"id", "/content/my-practice/follow-up" }}
