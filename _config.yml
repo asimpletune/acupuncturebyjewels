@@ -1,6 +1,7 @@
 # Site settings
 title: Acupuncture by Jewels
-email: jewels@kirasretreats.com
+email-user: jewels
+email-domain: kirasretreats.com
 description: Jewels' personal acupuncture site
 author: Spencer Scorcelletti
 baseurl: "" # the subpath of your site, e.g. /blog/

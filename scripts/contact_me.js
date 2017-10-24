@@ -9,7 +9,9 @@ $(function() {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
-            var email = $("input#email").val();
+            var emailUser = $("input#email").attr("data-email-user");
+            var emailDomain = $("input#email").attr("data-email-domain");
+            var email = emailUser + "@" + emailDomain;
             var phone = $("input#phone").val();
             var message = $("textarea#message").val();
             var replyto = $("input[name=_replyto]").val();
@@ -19,14 +21,6 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-            console.log({
-                name: name,
-                phone: phone,
-                email: email,
-                message: message,
-                "_replyto": replyto,
-                "_subject": subject
-            });
             $.ajax({
                 url: "https://formspree.io/" + email,
                 method: "POST",

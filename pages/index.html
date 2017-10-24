@@ -191,9 +191,6 @@ permalink: /index
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <script charset="utf-8">
-                  var email = "{{site.email}}"
-                </script>
                 <form name="sentMessage " id="contactForm" novalidate>
                     <div class="row">
                         <div class="col-md-6">
@@ -204,7 +201,7 @@ permalink: /index
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input name="_replyto" type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                <input name="_replyto" type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address." data-email-user="{{site.email-user}}" data-email-domain="{{site.email-domain}}">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
