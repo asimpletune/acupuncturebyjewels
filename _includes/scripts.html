@@ -1,9 +1,9 @@
 <!-- default scripts -->
 {% for script in page.default-scripts %}
-  <script charset="utf-8" type="text/javascript" src="{{ script.src | prepend: site.baseurl }}"></script>
+  <script charset="utf-8" type="text/javascript" src="{{ script.src | prepend: site.url }}"></script>
 {% endfor %}
 
 <!-- extra scripts -->
 {% for script in page.scripts %}
-  <script charset="utf-8" type="text/javascript" src="{{ script.src | prepend: site.baseurl }}"></script>
+  <script charset="utf-8" type="text/javascript" src="{{ script.src | prepend: site.url }}"></script>
 {% endfor %}

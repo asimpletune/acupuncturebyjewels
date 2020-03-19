@@ -2,7 +2,7 @@
 {% for style in page.default-styles %}
   <link
     rel="stylesheet"
-    href="{{ style.src | prepend: site.baseurl }}"
+    href="{{ style.src | prepend: site.url }}"
     {% if style.media %}
       media="{{ style.media }}"
     {% endif %}
@@ -16,7 +16,7 @@
 {% for style in page.styles %}
   <link
     rel="stylesheet"
-    href="{{ style.src | prepend: site.baseurl }}"
+    href="{{ style.src | prepend: site.url }}"
     {% if style.media %}
       media="{{ style.media }}"
     {% endif %}
