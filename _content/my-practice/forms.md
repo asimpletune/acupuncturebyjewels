@@ -12,5 +12,3 @@
 [Intake Form]({{ site.url }}/assets/Intake-Form.pdf)
 
 [Consent Form]({{ site.url}}/assets/Consent-Form.pdf)
-
-[Ultrasonic Cavitation Theory]({{ site.url}}/assets/Ultrasonic-Cavitation-Theory.pdf)
