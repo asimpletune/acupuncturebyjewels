@@ -55,15 +55,15 @@ permalink: /index.html
             </div>
         </div>
         <div class="row process">
-          <div class="col-lg-6 text-left">
-              {{ site.content | where:"url", "/content/my-practice/initial-consultation-and-treatment.html" }}
-          </div>
-          <div class="col-lg-6 text-left">
-              {{ site.content | where:"url", "/content/my-practice/follow-up.html" }}
-          </div>
-          <div class="col-lg-12 text-right">
-            {{ site.content | where:"url", "/content/my-practice/forms.html" }}
-          </div>
+            <div class="col-lg-6 text-left">
+                {{ site.content | where:"url", "/content/my-practice/initial-consultation-and-treatment.html" }}
+            </div>
+            <div class="col-lg-6 text-left">
+                {{ site.content | where:"url", "/content/my-practice/follow-up.html" }}
+            </div>
+            <div class="col-lg-12 text-right">
+                {{ site.content | where:"url", "/content/my-practice/forms.html" }}
+            </div>
         </div>
         <div class="row lao-tzu">
             <div class="col-lg-12">
@@ -71,21 +71,24 @@ permalink: /index.html
             </div>
         </div>
         <div class="row gallery">
-            <div class="col-md-12 col-sm-12 portfolio-item">
-                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio">
-                    </div>
-                    <img src="{{ site.url }}/images/studio/IMG_9152.jpg" class="img-responsive" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>My Studio</h4>
-                    <p class="text-muted">For a calm and relaxing environment</p>
-                </div>
+            <div  class="col-sm-6">
+                <img src="{{ site.url }}/images/studio/IMG_9152.jpg" class="img-responsive" alt="">
+            </div>
+            <div  class="col-sm-6">
+                <img src="{{ site.url }}/images/studio/IMG_9158.jpg" class="img-responsive" alt="">
+            </div>
+        </div>
+        <div class="row gallery">
+            <div  class="col-sm-6">
+                <img src="{{ site.url }}/images/studio/IMG_9159.jpg" class="img-responsive" alt="">
+            </div>
+            <div  class="col-sm-6">
+                <img src="{{ site.url }}/images/studio/IMG_9156.jpg" class="img-responsive" alt="">
             </div>
         </div>
         <div class="row footing">
             <div class="col-lg-12 text-center">
-              {{ site.content | where:"url", "/content/my-practice/footing.html" }}
+                {{ site.content | where:"url", "/content/my-practice/footing.html" }}
             </div>
         </div>
     </div>
@@ -99,34 +102,28 @@ permalink: /index.html
                 {{ site.content | where:"url", "/content/about/heading.html" }}
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="{{ site.url }}/images/about/jewels1.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                          {{ site.content | where:"url", "/content/about/bubble1.html" }}
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="{{ site.url }}/images/about/food2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            {{ site.content | where:"url", "/content/about/bubble2.html" }}
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="{{ site.url }}/images/about/jewels2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            {{ site.content | where:"url", "/content/about/bubble3.html" }}
-                        </div>
-                    </li>
-                </ul>
+        <div class="row text-left">
+            <div class="col-xs-12 col-sm-4">
+                <img class="img-circle img-responsive center-block" src="{{ site.url }}/images/about/jewels1.jpg" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-8">
+                {{ site.content | where:"url", "/content/about/bubble1.html" }}
+            </div>
+        </div>
+        <div class="row text-left">
+            <div class="col-xs-12 col-sm-4">
+                <img class="img-circle img-responsive center-block" src="{{ site.url }}/images/about/food2.jpg" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-8">
+                {{ site.content | where:"url", "/content/about/bubble2.html" }}
+            </div>
+        </div>
+        <div class="row text-left">
+            <div class="col-xs-12 col-sm-4">
+                <img class="img-circle img-responsive center-block" src="{{ site.url }}/images/about/jewels2.jpg" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-8">
+                {{ site.content | where:"url", "/content/about/bubble3.html" }}
             </div>
         </div>
     </div>
@@ -141,9 +138,9 @@ permalink: /index.html
             </div>
         </div>
         <div class="prices">
-          <div>
-            {{ site.content | where:"url", "/content/pricing/acupuncture-and-massage.html" }}
-          </div>
+            <div>
+                {{ site.content | where:"url", "/content/pricing/acupuncture-and-massage.html" }}
+            </div>
         </div>
     </div>
 </section>
