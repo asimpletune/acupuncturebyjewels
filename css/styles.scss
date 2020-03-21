@@ -23,9 +23,9 @@
 
 #portfolio {
   padding-bottom: 30px;
-  .process {
-    margin: 0 75px 15px;
-  }
+//   .process {
+//     margin: 0 75px 15px;
+//   }
   .gallery {
     margin-top: 20px;
   }
@@ -37,6 +37,9 @@
 #about {
   .timeline > li::after, .timeline > li::before {
     content: unset;
+  }
+  img.img-circle {
+   border: 7px solid #f1f1f1
   }
 }
 
