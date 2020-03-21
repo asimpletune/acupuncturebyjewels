@@ -38,6 +38,9 @@
   .timeline > li::after, .timeline > li::before {
     content: unset;
   }
+  img.img-circle {
+   border: 7px solid #f1f1f1
+  }
 }
 
 #pricing {
